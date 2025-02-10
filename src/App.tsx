@@ -4,18 +4,24 @@ import Confetti from "react-confetti";
 import { motion } from "framer-motion";
 import { LogSnag } from "@logsnag/node";
 
+
 const logsnag = new LogSnag({
-  token: "LOGSNAG_TOKEN",
-  project: "PROJECT_NAME",
+  token: "214253659a6e4a40420bd75172591356",
+  project: "kwamebio"
 });
 
 const track = async () => {
   await logsnag.track({
-    channel: "yes",
-    event: "Valentine's Day",
-    description: "She said yes!",
-    icon: "💖",
+    channel: "track_vals",
+  event: "she said yes",
+  user_id: "yes",
+    description: "Queenster",
+    icon: "💰",
     notify: true,
+    tags: {
+      shipping: "",
+      quantity: ""
+    }
   });
 };
 
