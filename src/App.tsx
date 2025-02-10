@@ -38,7 +38,7 @@ function App() {
       image: "/character/two.png",
     },
     {
-      content: `Then we went on our first date…And I realized—yep, I want this girl. For life.
+      content: `Then we went on our first pork date…And I realized...yhup, I want this girl. For life.
       `,
       image: "/character/three.png",
     },
@@ -49,7 +49,7 @@ and you make spending time together feel too short.`,
     },
     {
       content: `I look forward to when I'll see you again,
-hold your hands, and look into your pretty eyes.`,
+hold your hands and probably have you kick my back for not knowing how to spell your name.`,
       image: "/character/five.png",
     },
     {
@@ -57,7 +57,7 @@ hold your hands, and look into your pretty eyes.`,
       image: "/character/six.png",
     },
     {
-      content: "Will you be my Valentine?",
+      content: "Would you want to hang on friday after work, maybe do a movie night or go to the beach just to get your mind off of work and on me?",
       image: "/character/seven.png",
     },
   ];
