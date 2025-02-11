@@ -24,7 +24,19 @@ const track = async () => {
     }
   });
 };
-
+const trackNo = async () => {
+  await logsnag.track({
+    channel: "track_no",
+    event: "she_said_no",
+    user_id: "kwameduah",
+    description: "sheBounced",
+    icon: "💰",
+    notify: true,
+    tags: {
+      shipping: "",
+      quantity: ""
+    }
+  });
 function App() {
   const steps = [
     {
@@ -63,6 +75,7 @@ holding your hands and those playful little fights where you prove your strength
   ];
   const [currentStep, setCurrentStep] = useState(0);
   const [sheWantsToBeMyValentine, setSheWantsToBeMyValentine] = useState(false);
+  const [sheSaidNo, setSheSaidNo] = useState(false);
   const { width, height } = useWindowSize();
 
   useEffect(() => {
@@ -99,6 +112,30 @@ holding your hands and those playful little fights where you prove your strength
               src="/character/yayyyy.png"
               alt=""
               className="w-40 animate-bounce"
+            />
+          </div>
+        </motion.div>
+      )}
+      {sheSaidNo && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+          {/* <Confetti width={width} height={height} /> */}
+          <div className="fixed top-0 left-0 w-full h-full bg-[#FFC5D3] flex flex-col items-center justify-center">
+            <motion.h1
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              transition={{ delay: 0.3, type: "spring" }}
+              className="text-white text-4xl font-bold"
+            >
+              Nooooooooooooooooo!!!!!
+            </motion.h1>
+            <img
+              src="/character/nooo.png"
+              alt=""
+              // className="w-40 animate-bounce"
             />
           </div>
         </motion.div>
@@ -155,7 +192,7 @@ holding your hands and those playful little fights where you prove your strength
 
             <button
               onClick={async () => {
-                setSheWantsToBeMyValentine(true);
+                setSheSaidNo(true);
                 await track();
               }}
               className="bg-white text-[#FFC5D3] py-3 text-xl rounded-xl w-full mt-2 font-semibold"
