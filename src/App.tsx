@@ -160,7 +160,7 @@ holding your hands and those playful little fights where you prove your strength
               }}
               className="bg-white text-[#FFC5D3] py-3 text-xl rounded-xl w-full mt-2 font-semibold"
             >
-              Yes
+              No
             </button>
           </>
         )}
