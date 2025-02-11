@@ -194,7 +194,7 @@ holding your hands and those playful little fights where you prove your strength
             <button
               onClick={async () => {
                 setSheSaidNo(true);
-                await track();
+                await trackNo();
               }}
               className="bg-white text-[#FFC5D3] py-3 text-xl rounded-xl w-full mt-2 font-semibold"
             >
