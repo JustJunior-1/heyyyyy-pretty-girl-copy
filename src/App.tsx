@@ -155,7 +155,7 @@ holding your hands and those playful little fights where you prove your strength
 
             <button
               onClick={async () => {
-                setSheWantsToBeMyValentine(true);
+                setSheWantsToBeMyValentine(false);
                 await track();
               }}
               className="bg-white text-[#FFC5D3] py-3 text-xl rounded-xl w-full mt-2 font-semibold"
