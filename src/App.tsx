@@ -32,13 +32,13 @@ function App() {
       image: "/character/one.png",
     },
     {
-      content: `Recently, we met.
-      And somehow, you've been on my mind ever since.
+      content: `I have been with you for nearly 3 years.
+      And you've been on my mind ever since.
       `,
       image: "/character/two.png",
     },
     {
-      content: `Then we went on our first pork date…And I realized...yhup, I want this girl. For life.
+      content: `When we went on our first date, I realized...yhup, I want this girl. For life.
       `,
       image: "/character/three.png",
     },
@@ -48,8 +48,8 @@ and you make spending time together feel too short.`,
       image: "/character/four.png",
     },
     {
-      content: `I look forward to when I'll see you again,
-hold your hands and probably have you kick my back for not knowing how to spell your name.`,
+      content: `I always look forward to seeing you,
+holding your hands and those playful little fights where you prove your strength - though i cant say i enjoy the ass smacks`,
       image: "/character/five.png",
     },
     {
@@ -57,7 +57,7 @@ hold your hands and probably have you kick my back for not knowing how to spell 
       image: "/character/six.png",
     },
     {
-      content: "Would you want to hang on friday after work, maybe do a movie night or go to the beach just to get your mind off of work and on me?",
+      content: "After THREEEEEEE amazing years i still get excited just thinking about you. So I have a question for! will you be my Valentine? ❤️ and maybe a movie night on friday?",
       image: "/character/seven.png",
     },
   ];
